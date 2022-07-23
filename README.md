@@ -15,7 +15,7 @@ It is a simple three tier AWS architecture diagram, that host a web made on Node
 
 **DB Tier:** Consist on a private subnet called "3" on AZ 1, hosting 2 DB's, one for Postgres working as master, and another one no relational DB for Mongo, also working as master. The other private subnet, called "4" on AZ 2, host 2 DB's also for Postgres and Mongo, but these 2 are the slaves. A synchronous replication is configured between DB's to ensure high availability. These 2, are also connected to an amazon S3 bucket, with daily snapshot backup configured. There is a security group configured with corresponding ports open (27017 for mongo and 5432 for Postgres) for an specific IP block to ensure a high security standard.
 
-Our Git repository, is working with different development tools from AWS as CodeBuild (CI stage), CodeDeploty (CD Stage) and CodePipeline (moving our changes to reality).
+Our Git repository, is working with different development tools from AWS as CodeBuild (CI stage), CodeDeploy (CD Stage) and CodePipeline (moving our changes to reality).
 
 And finally, Amazon SES and SNS working as notification services contributing with the monitoring of the infra that is being watched by Amazon CloudWatch.
 
