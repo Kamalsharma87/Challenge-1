@@ -24,5 +24,3 @@ And finally, Amazon SES and SNS working as notification services contributing wi
 NOTE: You will realize that some things were added up to the diagram but not to the .tf file because it's not the usual on a 3 tier common setup. Hope you find this scalable and secure.
 
 Thanks for the opportunity. This challenge was really fun!
-
-Take care, bye!
