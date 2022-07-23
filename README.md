@@ -4,7 +4,7 @@ A 3-tier environment is a common setup
 ```
 
 # As per the Diagram
-```shell
+
 The diagram consist on the following:
 
 It is a simple three tier AWS architecture diagram, that host a web made on Node.Js, with different tiers that you can visualize on the architecture. Also, it has a couple of notification services, a monitoring service, Git Repository with the corresponding flow of CI/CD, a S3 bucket used as backup for the DB tier and also work as a static frontend for the app, among other things. Below, I'll explain on a high level and then in detail, all the tiers.
@@ -24,4 +24,3 @@ NOTE: You will realize that some things were added up to the diagram but not to 
 Thanks for the opportunity. This challenge was really fun!
 
 Take care, bye!
-```
